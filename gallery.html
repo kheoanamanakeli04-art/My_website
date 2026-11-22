@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Destinations</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Kingdom Photo Gallery</h1>
+    <p>Explore the stunning visual wonders of Lesotho</p>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Lesotho</a>
+            <div class="navbar-nav">
+                <a class="nav-link" href="index.html">HOME</a>
+                <a class="nav-link" href="about.html">ABOUT</a>
+                <a class="nav-link" href="services.html">ACTIVITIES</a>
+                <a class="nav-link" href="gallery.html">DESTINATIONS</a>
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+    <button class="theme-btn" onclick="changeMode()">Dark / Light Mode</button>
+</header>
+
+<main class="container">
+    <br>
+    <div class="box">
+        <input class="field" id="searchBox" placeholder="Search a place... e.g. Katse" oninput="searchPlace()">
+    </div>
+
+    <div class="box search-item">
+        <h2>SEHLABATHEBE NATIONAL PARK</h2>
+        <div class="row">
+            <div class="col-sm-4"><img class="pic" src="Images/sehla.jpg" alt="Sehlabathebe park"></div>
+            <div class="col-sm-4"><img class="pic" src="Images/ima.jpg" alt="Sehlabathebe"></div>
+            <div class="col-sm-4"><img class="pic" src="Images/sehlabathebe.jpg" alt="Sehlabathebe"></div>
+        </div>
+    </div>
+
+    <div class="box search-item">
+        <h2>MALETSUNYANE FALLS</h2>
+        <div class="row">
+            <div class="col-sm-4"><img class="pic" src="Images/IMG_b.jpg" alt="Maletsunyane"></div>
+            <div class="col-sm-4"><img class="pic" src="Images/mal.jpg" alt="Maletsunyane Falls"></div>
+            <div class="col-sm-4"><img class="pic" src="Images/Untitled.jpg" alt="Waterfall"></div>
+        </div>
+    </div>
+
+    <div class="box search-item">
+        <h2>KATSE DAM</h2>
+        <div class="row">
+            <div class="col-sm-4"><img class="pic" src="Images/katse.jpg" alt="Katse Dam"></div>
+            <div class="col-sm-4"><img class="pic" src="Images/dam.jpg" alt="Dam"></div>
+            <div class="col-sm-4"><img class="pic" src="Images/roars.jpg" alt="Katse"></div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; Discover Lesotho</p>
+    <p>Kingdom in the Sky | Maseru, Lesotho</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
