@@ -19,7 +19,6 @@ header p {
     color: white;
 }
 
-/* SECTIONS FILL 80% OF SCREEN */
 .container {
     width: 80%;
     max-width: 1100px;
@@ -79,7 +78,6 @@ header p {
     margin: 12px;
 }
 
-/* FOOTER */
 footer {
     background: green;
     color: white;
@@ -98,7 +96,6 @@ footer p {
     font-size: 14px;
 }
 
-/* DARK MODE */
 body.dark {
     background: black;
     color: white;
@@ -113,9 +110,6 @@ body.dark header {
     background: darkgreen;
 }
 
-/* MEDIA QUERIES */
-
-/* PHONE - less than 600px - fill 95% */
 @media (max-width: 600px) {
     .container {
         width: 95%;
@@ -144,7 +138,6 @@ body.dark header {
     }
 }
 
-/* TABLET - 601px to 900px - fill 85% */
 @media (min-width: 601px) and (max-width: 900px) {
     .container {
         width: 85%;
@@ -160,7 +153,6 @@ body.dark header {
     }
 }
 
-/* LAPTOP - more than 901px - fill 80% */
 @media (min-width: 901px) {
     .container {
         width: 80%;
